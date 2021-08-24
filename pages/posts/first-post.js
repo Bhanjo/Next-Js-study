@@ -1,9 +1,13 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import Head from 'next/head'
 
 export default function FirstPost() {
     return (
     <>
+        <Head>
+            <title>첫 포스팅</title>
+        </Head>
         <h1>첫 번째 포스팅!</h1>
         <h2>
             <Link href="/">
