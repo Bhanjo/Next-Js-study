@@ -1,10 +1,11 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import Head from 'next/head'
+import Layout from '../../components/layout'
 
 export default function FirstPost() {
     return (
-    <>
+    <Layout>
         <Head>
             <title>첫 포스팅</title>
         </Head>
@@ -20,6 +21,6 @@ export default function FirstPost() {
             width={144}
             alt='나의 이미지'
         />
-    </>
+    </Layout>
     )
 }
