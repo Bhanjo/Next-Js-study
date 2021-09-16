@@ -1,4 +1,4 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+This is a starter template for [Learn Next.js](https://nextjs.org/learn)
 
 ## Run dev
 `npm run dev` or `yarn dev`
